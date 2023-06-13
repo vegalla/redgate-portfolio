@@ -1,0 +1,39 @@
+.house-page {
+
+    .room-nav-bar {
+        position: absolute;
+        background-color: #fff;
+        height: 60px;
+        left: 17.5%;
+        width: 70%;
+        border: dotted red;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 5px;
+        column-gap: 25px;
+    
+        .grid-item {
+            border: dotted red;
+            text-align: center;
+            font-size: 30px;
+        
+            .button {
+                border: none;
+                font-size: 16px;
+                padding: 12px;
+                height: 100%;
+                width: 100%
+            }
+
+            .button:focus {
+                background-color: red;
+            }
+        
+        }
+
+    }
+
+}

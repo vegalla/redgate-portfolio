@@ -15,7 +15,7 @@ const Landing = () => {
             <div className="text-zone">
                 <h1>Welcome Home</h1>
                 <h2>
-                    <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/home">Tour the House</Link> | <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/neighborhood">Explore the Neighborhood</Link>
+                    <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/house">Tour the House</Link> | <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/neighborhood">Explore the Neighborhood</Link>
                 </h2>
                 <Link to="/contact" className='flat-button'>INQUIRE ABOUT ROOM AVAILABILITY</Link>
             </div>
