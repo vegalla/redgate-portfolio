@@ -36,5 +36,23 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
-    border: dashed red;
+    border: dotted red;
+}
+
+.contact-page,
+.landing-page,
+.neighborhood-page {
+
+    .text-zone {
+        border: dotted red;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+    }
+
 }

@@ -1,3 +1,27 @@
+.marker-text-zone{
+    border: dotted red;
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    height: 80%;
+    width: 35%;
+    max-height: 90%;
+    overflow: hidden;
+
+    .marker-container {
+        border: dotted red;
+        overflow-y: auto;
+        margin: 5px;
+        height: 100%;
+        width: 95%;
+
+        .marker {
+            border: dotted red;
+        }
+    }
+}
+
 .info-map {
     position: absolute;
     background-color: #000;
