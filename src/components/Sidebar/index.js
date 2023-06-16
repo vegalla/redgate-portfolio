@@ -1,9 +1,7 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
-import LogoS from '../../assets/images/logo-s.png';
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquare, faHome, faMap, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faSquare, faHome, faMap, faQuestion, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => {
     return (
@@ -17,6 +15,9 @@ const Sidebar = () => {
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="neighborhood-page" to="/neighborhood">
                     <FontAwesomeIcon icon={faMap} color="#4d4d4e" />
+                </NavLink>
+                <NavLink exact="true" activeclassname="active" className="faq-page" to="/faq">
+                    <FontAwesomeIcon icon={faQuestion} color="#4d4d4e" />
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="contact-page" to="/contact">
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />

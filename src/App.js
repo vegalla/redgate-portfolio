@@ -5,6 +5,7 @@ import Landing from './components/Landing';
 import House from './components/House';
 import Contact from './components/Contact';
 import Neighborhood from './components/Neighborhood';
+import Faq from './components/FAQ';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Landing />} />
           <Route path="house" element={<House />} />
           <Route path="neighborhood" element={<Neighborhood />} />
+          <Route path="faq" element={<Faq />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

@@ -67,6 +67,12 @@ nav {
             content: 'AREA';
         }
     }
+    
+    a.faq-page {
+        &:after{
+            content: 'FAQ';
+        }
+    }
 
     a.contact-page {
         &:after {
