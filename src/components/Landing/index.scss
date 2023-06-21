@@ -3,11 +3,13 @@
         position: absolute;
         background-color: #fff;
         height: 100%;
-        left: 5%;
-        width: 95%;
+        width: 100%;
 
         img {
+            position: absolute;
             max-height: 100%;
+            top: 50%;
+            transform: translate(0, -50%);
         }
     }
 

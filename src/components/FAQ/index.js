@@ -7,7 +7,7 @@ import { QUESTIONS } from './CONFIG';
 const Faq = () => {
 
     const questionsList = QUESTIONS.map((question) => (
-        <div>
+        <div key={question.question}>
             <h2>
                 {question.question}
             </h2>

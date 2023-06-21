@@ -1,11 +1,14 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
 .house-page {
 
     .room-nav-bar {
         position: absolute;
         background-color: #fff;
         height: 60px;
-        left: 17.5%;
-        width: 70%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 60%;
         border: dotted red;
     }
 
@@ -28,12 +31,29 @@
                 width: 100%
             }
 
-            .button:focus {
-                background-color: red;
+
+            .button-active {
+                background: red;
+                border: none;
+                font-size: 16px;
+                padding: 12px;
+                height: 100%;
+                width: 100%
             }
         
         }
 
+    }
+
+    .gallery-zone {
+        border: dotted red;
+        background: white;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        height: 70%;
+        width: 80%;
     }
 
 }

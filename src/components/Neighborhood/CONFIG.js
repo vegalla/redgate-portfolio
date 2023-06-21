@@ -16,31 +16,7 @@ export const MARKERS = [
         header: "Torch Bistro",
         address: "601 Orapax St",
         description: "10/10 Torch Burger and Wednesday Night Trivia"
-    },
-    {
-        category: 'food',
-        header: "Torch Bistro",
-        address: "601 Orapax St",
-        description: "10/10 Torch Burger and Wednesday Night Trivia"
-    },
-    {
-        category: 'food',
-        header: "Torch Bistro",
-        address: "601 Orapax St",
-        description: "10/10 Torch Burger and Wednesday Night Trivia"
-    },
-    {
-        category: 'food',
-        header: "Torch Bistro",
-        address: "601 Orapax St",
-        description: "10/10 Torch Burger and Wednesday Night Trivia"
-    },
-    {
-        category: 'food',
-        header: "Torch Bistro",
-        address: "601 Orapax St",
-        description: "10/10 Torch Burger and Wednesday Night Trivia"
-    },
+    }
     
 
 ]
